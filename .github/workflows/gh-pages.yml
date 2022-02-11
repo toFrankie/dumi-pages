@@ -27,6 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAGES_DEPLOY }}
-          branch: gh-pages
           publish_dir: ./docs-dist
-          publish_repository: tofrankie/tofrankie.github.io
+          external_repository: tofrankie/tofrankie.github.io
