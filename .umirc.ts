@@ -9,6 +9,8 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
+  locales: [['zh-CN', '中文']],
+
   // Because of using GitHub Pages
   base: `/`, // `/${repo}/`
   publicPath: `/`, // `/${repo}/`

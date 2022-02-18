@@ -1,57 +1,49 @@
 # 🌟 Dumi Template
 
-A doc template can assist you to develop libraries & write docs.
+为组件开发场景而生的文档模板
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
-## 🚀 How to use?
+## 🚀 如何使用？
 
 ![](https://gw.alipayobjects.com/zos/bmw-prod/91791904-cdde-4408-959d-72fd0c9049b1/kj80x6lv_w1918_h352.png)
 
-## ✨ Online preview
+## ✨ 在线预览
 
 https://umijs.github.io/dumi-template/
 
-## 📒 Catalog Introduction
+## 📒 目录介绍
 
 ```
-├── docs                   Component documentation
-│   ├── index.md           Home page
-│   └── **.**              Site Directory Document
-├── src                    Component home directory
-│   ├── index.ts           Component registration
-│   └── Foo                Component development
-├── .eslintrc.js           eslint config
-├── .fatherrc.ts           father config
-├── .umirc.ts              dumi config
-└── tsconfig.json          typescript config
+├── docs                   文档存放路径
+│   ├── index.md           首页展示
+│   └── **.**              网站目录文档
+├── src                    组件主目录
+│   ├── index.ts           组件注册
+│   └── Foo                组件开发
+├── .eslintrc.js           eslint 配置
+├── .fatherrc.ts           father 配置
+├── .umirc.ts              dumi 配置
+└── tsconfig.json          typescript 配置
 ```
 
-The rest of the documents can be consulted by yourself.
+其余文件可自行查阅了解。
 
-## 🤖 Command introduction
+## 🤖 命令介绍
 
-| Name                    | Description               | Remarks                                                                                                            |
-| ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `npm run start`         | Project begining          | Document usage [dumi](https://github.com/umijs/dumi), component development and documentation development together |
-| `npm run test`          | Component test            | -                                                                                                                  |
-| `npm run test:coverage` | Code coverage review      | -                                                                                                                  |
-| `npm run prettier`      | Code prettier             | -                                                                                                                  |
-| `npm run build`         | Component packaging       | Use [father](https://github.com/umijs/father)                                                                      |
-| `npm run release`       | Component package release | -                                                                                                                  |
-| `npm run docs:build`    | Document packaging        | -                                                                                                                  |
-| `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                 |
-| `npm run deploy`        | Document package release  | -                                                                                                                  |
+| 名称                    | 描述           | 备注                                                                 |
+| ----------------------- | -------------- | -------------------------------------------------------------------- |
+| `npm run start`         | 项目启动       | 使用 [dumi](https://github.com/umijs/dumi)，组件开发和文档开发在一起 |
+| `npm run test`          | 组件测试       | -                                                                    |
+| `npm run test:coverage` | 代码覆盖率查看 | -                                                                    |
+| `npm run prettier`      | 代码美化       | -                                                                    |
+| `npm run build`         | 组件打包       | 使用 [father](https://github.com/umijs/father) 工具                  |
+| `npm run release`       | 组件打包发布   | -                                                                    |
+| `npm run docs:build`    | 文档打包       | -                                                                    |
+| `npm run docs:deploy`   | 文档发布       | 这里默认是使用了 GitHub Pages                                        |
+| `npm run deploy`        | 文档打包发布   | -                                                                    |
 
-### README Badge
-
-Using dumi ? Add a README badge to show it off: [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-
-```
-[![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-```
-
-## Discuss group
+## 交流群
 
 <div>
   <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />

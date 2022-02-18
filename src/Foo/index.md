@@ -1,6 +1,6 @@
 ---
 nav:
-  title: Components
+  title: 组件
   path: /components
 ---
 
@@ -13,8 +13,6 @@ import React from 'react'
 import { Foo } from 'dumi-template'
 
 export default () => <Foo title="First Demo" />
-
-// Test
 ```
 
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
+[更多技巧](https://d.umijs.org/guide/demo-principle)
